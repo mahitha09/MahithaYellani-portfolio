@@ -114,6 +114,10 @@ body{
     color: var(--primary-color);
 }
 
+.heading-inverted {
+    color: var(--primary-color);
+}
+
 /* sections */
 
 .section {
