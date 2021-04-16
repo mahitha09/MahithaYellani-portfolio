@@ -53,6 +53,10 @@ body{
     margin: 1rem 1rem 1rem 0rem;
 }
 
+.link-secondary:hover{
+    background-color: var(--primary-color);
+}
+
 /* lists */
 
 .list-non-bullet {
