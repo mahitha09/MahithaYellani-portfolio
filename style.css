@@ -29,6 +29,9 @@ body{
     text-align:center;
 }
 
+p{
+    letter-spacing: 0.8px;
+}
 /* links */
 
 .link {
@@ -44,6 +47,7 @@ body{
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
+    transition: all 0.3s ease;
 }
 
 .link-secondary {
@@ -53,10 +57,12 @@ body{
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
+    transition: all 0.3s ease;
 }
 
 .link-secondary:hover{
     background-color: var(--primary-color);
+    color: white;
 }
 
 /* lists */
@@ -108,8 +114,8 @@ body{
 /* header */
 
 .hero {
-    padding: 2rem;
-    padding-top: 5rem;
+    padding: 1rem;
+    padding-top: 3rem;
 }
 
 .hero .hero-img {
@@ -153,7 +159,7 @@ body{
 
 .footer {
     background-color: var(--primary-color);
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -167,7 +173,7 @@ body{
     font-weight: bold;
     color: var(--decor-color);
     font-size: large;
-    font-size: 2rem;
+    font-size: 1.7rem;
     cursor: pointer;
 }
 
