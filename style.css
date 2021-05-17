@@ -204,3 +204,13 @@ p{
 hr{
     width:60%;
 }
+
+article span{
+    font-size: 0.75em;
+    padding: 0.2em 0.6em;
+    background-color: var(--dark-gray);
+    border-radius: 50px;
+    font-weight: bold;
+    color:white;
+    margin-left: 1em;
+}
